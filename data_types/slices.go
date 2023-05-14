@@ -23,7 +23,7 @@ func main() {
 	fmt.Println("len:", len(s))
 
 	c := make([]string, len(s))
-	copy(c, s)
+	copy(c, s) //copy(destination, source)
 	fmt.Println("cpy:", c)
 
 	l := s[2:5]

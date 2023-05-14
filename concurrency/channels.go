@@ -12,7 +12,7 @@ func main() {
 	// sends a value into channel
 	go func() { messages <- "ping " }()
 
-	messages <- "ping "
+	// messages <- "ping "
 
 	// <-channel
 	// receives a value from the channel
